@@ -18,7 +18,7 @@ x-cardano-node: &cardano-node
       configurator:
         condition: service_completed_successfully
 
-services:
+service:
   configurator:
     image: ghcr.io/cardano-foundation/antithesis/configurator:latest
     container_name: configurator
